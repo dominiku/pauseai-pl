@@ -1,0 +1,90 @@
+<div class="slider-container">
+    <div class="slider-track">
+        <!-- Slide 1 -->
+
+
+        <!-- Slide 2 -->
+        <div class="slide">
+            <div class="slide-image-placeholder"></div>
+            <div class="slide-content">
+                <p class="slide-quote">"Wzywamy do wprowadzenia zakazu rozwoju superinteligencji, który nie zostałby zniesiony, dopóki nie powstanie szeroki konsensus naukowy, że zostanie to zrobione w sposób bezpieczny i kontrolowalny, oraz dopóki nie uzyska to silnego poparcia społecznego."</p>
+                <div class="slide-footer">
+                    <span class="slide-author">Oświadczenie w sprawie Superinteligencji, ponad 110 000 sygnatariuszy, w tym badacze AI, liderzy polityczni, religijni i branżowi, artyści oraz celebryci.<br><a href="https://superintelligence-statement.org/">https://superintelligence-statement.org/</a></span>
+                </div>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="slide-image-placeholder"></div>
+            <div class="slide-content">
+                <p class="slide-quote">Z punktu widzenia własnego ego i dobrego samopoczucia z powodu tego, co się robi, bardzo trudno jest zaakceptować myśl, że rzecz, nad którą pracowało się przez dziesięciolecia, może faktycznie być bardzo niebezpieczna dla ludzkości... Myślę, że nie chciałem o tym zbyt wiele myśleć i prawdopodobnie tak samo jest w przypadku innych [...] Zbuntowana AI może być niebezpieczna dla całej ludzkości. Dobrym początkiem byłoby zakazanie potężnych systemów AI (powiedzmy wykraczających poza możliwości GPT-4), którym nadaje się autonomię i sprawczość.</p>
+                <div class="slide-footer">
+                    <span class="slide-author">Yoshua Bengio, 2./3. najczęściej cytowany naukowiec w historii, ojciec chrzestny współczesnej sztucznej inteligencji, laureat Nagrody Turinga</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Slide 3 -->
+        <div class="slide">
+            <div class="slide-image-placeholder"></div>
+            <div class="slide-content">
+                <p class="slide-quote">Superinteligentne systemy AI są naszą przyszłością. [...] Istnieje możliwość, że AI wyrwie się spod kontroli. [Potencjalnie] maszyna może uznać, że ludzie stanowią zagrożenie, dojść do wniosku, że jej interesy są inne niż nasze, lub po prostu przestać się o nas troszczyć.</p>
+                <div class="slide-footer">
+                    <span class="slide-author">Bill Gates, współzałożyciel Microsoftu</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="slide-image-placeholder"></div>
+            <div class="slide-content">
+                <p class="slide-quote">Ograniczenie ryzyka zagłady ze strony AI powinno być globalnym priorytetem, obok innych ryzyk na skalę społeczną, takich jak pandemie czy wojna nuklearna.</p>
+                <div class="slide-footer">
+                    <span class="slide-author">Oświadczenie w sprawie ryzyka AI, podpisane przez setki ekspertów AI i inne wybitne osobistości. W tym trzech najczęściej cytowanych naukowców w historii oraz kluczowe osoby ze wszystkich czołowych laboratoriów AI. Poparte przez premiera Wielkiej Brytanii i przewodniczącą Komisji Europejskiej.<br><a href="https://aistatement.com/#signatories">https://aistatement.com/#signatories</a></span>
+                
+                </div>
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="slide-image-placeholder"></div>
+            <div class="slide-content">
+                <p class="slide-quote">Czy potencjalne zagrożenia ze strony AI przewyższają inne możliwe ryzyka egzystencjalne…? To dla mnie ryzyko numer 1 w tym stuleciu [...] Brak konkretnych projektów AGI nie jest tym, co mnie martwi; najbardziej niepokoi mnie brak konkretnych planów, jak zapewnić im bezpieczeństwo.</p>
+                <div class="slide-footer">
+                    <span class="slide-author">Shane Legg, współzałożyciel i główny naukowiec ds. AGI w Google DeepMind</span>
+                </div>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="slide-image-placeholder"></div>
+            <div class="slide-content">
+                <p class="slide-quote">Pytanie badawcze brzmi: jak zapobiec temu, by kiedykolwiek zachciały przejąć kontrolę? I nikt nie zna odpowiedzi [...] Alarm, w który biję, dotyczy egzystencjalnego zagrożenia związanego z przejęciem przez nie kontroli [...] Jeśli traktuje się ryzyko egzystencjalne poważnie, tak jak ja teraz, całkiem rozsądne może być po prostu zaprzestanie dalszego rozwijania tych rzeczy [...] to tak, jakby wylądowali kosmici, a ludzie nie zdawali sobie z tego sprawy, bo bardzo dobrze mówią po angielsku.</p>
+                <div class="slide-footer">
+                    <span class="slide-author">Geoffrey Hinton, 1./3. najczęściej cytowany naukowiec w historii, ojciec chrzestny współczesnej sztucznej inteligencji, laureat Nagrody Turinga, zrezygnował z pracy w Google ze względu na obawy etyczne</span>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const track = document.querySelector(".slider-track");
+        const slides = document.querySelectorAll(".slider-track .slide");
+        if (track && slides.length > 0) {
+            // Give layout a tiny breather then focus exactly on the middle slide
+            setTimeout(() => {
+                const middleIndex = Math.floor(slides.length / 2);
+                const middleSlide = slides[middleIndex];
+                
+                // Calculate horizontal scroll to center the slide within the track
+                const trackWidth = track.clientWidth;
+                const slideWidth = middleSlide.clientWidth;
+                const slideLeft = middleSlide.offsetLeft;
+                
+                track.scrollLeft = slideLeft - (trackWidth / 2) + (slideWidth / 2);
+            }, 50); 
+        }
+    });
+</script>

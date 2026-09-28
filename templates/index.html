@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block title %}{{ section.title | default(value=config.title) }}{% endblock %}
+{% block description %}{{ section.description | default(value=config.description) | default(value="") }}{% endblock %}
+
+{% block content %}
+{% include "partials/hero.html" %}
+<div class="container">
+  {{ section.content | safe }}
+</div>
+{% include "partials/slider.html" %}
+{% endblock %}
+
+

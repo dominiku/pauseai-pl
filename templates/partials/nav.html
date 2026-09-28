@@ -1,0 +1,34 @@
+<header class="site-header">
+    <nav class="container">
+
+        <div class="row">
+            <div class="four columns mob">
+                {# --- Logo --- #}
+                {% set home_url = config.base_url %}
+                <a href="{{ home_url }}" class="logo">
+                    {% include "partials/logo.html" %}
+                </a>
+                <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">
+                    ☰
+                </button>
+            </div>
+            <div class="eight columns">
+
+                <ul class="nav-links" id="nav-menu">
+                    {% for item in config.extra.nav_items %}
+                    {% set is_active =
+                    current_path == item.url
+                    or current_path is starting_with(pat=item.url)
+                    %}
+                    <li>
+                        <a href="{{ item.url }}" class="nav-link {% if is_active %}active{% endif %}">
+                            {{ item.name }}
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+</header>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}{{ config.title }}{% endblock %}</title>
+  <meta name="description" content="{% block description %}{{ config.description | default(value="") }}{% endblock %}">
+  <link rel="canonical" href="{{ current_url | default(value=config.base_url) }}">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="{{ get_url(path='css/style.css') }}">
+
+  {% block extra_head %} {% endblock %}
+</head>
+
+<body>
+
+  {% include "partials/nav.html" %}
+
+  <main>
+    {% block content %}{% endblock %}
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; {{ now() | date(format = "%Y")}} {{ config.title }}</p>
+  </footer>
+  <script type="text/javascript" src="{{ get_url(path='js/nav.js') }}"></script>
+</body>
+
+</html>

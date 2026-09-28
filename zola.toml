@@ -1,0 +1,26 @@
+base_url = "https://pauseai.pl"
+title = "PauseAI Polska"
+description = "Działamy na rzecz międzynarodowego wstrzymania prac nad niebezpieczną sztuczną inteligencją, dopóki nie będziemy w stanie uczynić jej bezpieczną."
+default_language = "pl"
+
+compile_sass = false
+build_search_index = false
+
+taxonomies = [
+  { name = "tags", feed = true },
+]
+
+[markdown]
+
+[extra]
+newsletter_url = "#"
+join_url = "/dolacz"
+
+nav_items = [
+  { name = "Wiedza", url = "/wiedza/" },
+  { name = "Postulaty", url = "/postulaty/" },
+  { name = "Działaj",   url = "/dzialanie/" },
+  { name = "Dołącz do nas", url = "/dolacz/" }
+]
+
+
