@@ -2,7 +2,8 @@
 title = "PauseAI Polska"
 description = "Zatrzymajmy niekontrolowany rozwój sztucznej inteligencji"
 +++
-<p class="intro">Wyścig o super inteligencję AI jest zagrożeniem dla ludzkości. Żądamy globalnej pauzy w rozwoju i udostępnianiu przodujących modeli AI.</p>
+
+<p class="intro">Wyścig o superinteligentną AI jest zagrożeniem dla ludzkości. Żądamy globalnej pauzy w rozwoju i udostępnianiu przodujących modeli AI.</p>
        
 Liderzy czołowych laboratoriów AI uczestniczą w wyścigu „zbrojeń” w celu zbudowania super inteligencji AI. Ignorują potencjalne konsekwencje dla całej ludzkości, mimo tego, że zdają sobie sprawę z ryzyk. Pogoń za byciem pierwszym na mecie zepchnęła na dalszy plan fundamentalne pytania o bezpieczeństwo i etykę, stawiając nas wszystkich w obliczu nieprzewidywalnego ryzyka.
 
