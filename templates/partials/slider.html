@@ -66,25 +66,86 @@
 
 
     </div>
+    <div class="slider-controls">
+        <button type="button" class="slider-arrow slider-prev" aria-label="Poprzedni cytat">&#8249;</button>
+        <div class="slider-dots"></div>
+        <button type="button" class="slider-arrow slider-next" aria-label="Następny cytat">&#8250;</button>
+    </div>
 </div>
 
 <script>
     document.addEventListener("DOMContentLoaded", function() {
-        const track = document.querySelector(".slider-track");
-        const slides = document.querySelectorAll(".slider-track .slide");
-        if (track && slides.length > 0) {
-            // Give layout a tiny breather then focus exactly on the middle slide
-            setTimeout(() => {
-                const middleIndex = Math.floor(slides.length / 2);
-                const middleSlide = slides[middleIndex];
-                
-                // Calculate horizontal scroll to center the slide within the track
-                const trackWidth = track.clientWidth;
-                const slideWidth = middleSlide.clientWidth;
-                const slideLeft = middleSlide.offsetLeft;
-                
-                track.scrollLeft = slideLeft - (trackWidth / 2) + (slideWidth / 2);
-            }, 50); 
+        const container = document.querySelector(".slider-container");
+        const track = container && container.querySelector(".slider-track");
+        const slides = track ? [...track.querySelectorAll(".slide")] : [];
+        if (!slides.length) return;
+
+        const dotsBox = container.querySelector(".slider-dots");
+        const prev = container.querySelector(".slider-prev");
+        const next = container.querySelector(".slider-next");
+        let current = Math.floor(slides.length / 2);
+
+        const dots = slides.map((slide, i) => {
+            const dot = document.createElement("button");
+            dot.type = "button";
+            dot.className = "slider-dot";
+            dot.setAttribute("aria-label", "Cytat " + (i + 1) + " z " + slides.length);
+            dot.addEventListener("click", () => goTo(i));
+            dotsBox.appendChild(dot);
+            return dot;
+        });
+
+        // Spacers at both ends let the first and last slides reach the centre too
+        function setPadding() {
+            const cs = getComputedStyle(track);
+            const edge = (track.clientWidth - slides[0].offsetWidth) / 2
+                - parseFloat(cs.paddingLeft) - parseFloat(cs.columnGap);
+            track.style.setProperty("--slider-edge", Math.max(1, edge) + "px");
         }
+
+        function targetLeft(i) {
+            return slides[i].offsetLeft - (track.clientWidth - slides[i].offsetWidth) / 2;
+        }
+
+        function goTo(i, smooth = true) {
+            current = Math.max(0, Math.min(slides.length - 1, i));
+            track.scrollTo({ left: targetLeft(current), behavior: smooth ? "smooth" : "auto" });
+            update();
+        }
+
+        function update() {
+            dots.forEach((d, i) => d.setAttribute("aria-current", i === current ? "true" : "false"));
+            prev.disabled = current === 0;
+            next.disabled = current === slides.length - 1;
+        }
+
+        // Keep dots in sync when the user swipes or scrolls the track directly
+        let ticking = false;
+        track.addEventListener("scroll", () => {
+            if (ticking) return;
+            ticking = true;
+            requestAnimationFrame(() => {
+                const centre = track.scrollLeft + track.clientWidth / 2;
+                let best = 0, bestDist = Infinity;
+                slides.forEach((s, i) => {
+                    const d = Math.abs(s.offsetLeft + s.offsetWidth / 2 - centre);
+                    if (d < bestDist) { bestDist = d; best = i; }
+                });
+                if (best !== current) { current = best; update(); }
+                ticking = false;
+            });
+        });
+
+        prev.addEventListener("click", () => goTo(current - 1));
+        next.addEventListener("click", () => goTo(current + 1));
+        track.setAttribute("tabindex", "0");
+        track.addEventListener("keydown", (e) => {
+            if (e.key === "ArrowLeft") { e.preventDefault(); goTo(current - 1); }
+            if (e.key === "ArrowRight") { e.preventDefault(); goTo(current + 1); }
+        });
+        window.addEventListener("resize", () => { setPadding(); goTo(current, false); });
+
+        setPadding();
+        goTo(current, false);
     });
 </script>
