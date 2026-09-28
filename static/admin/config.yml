@@ -1,0 +1,42 @@
+# Sveltia CMS – https://sveltiacms.app/en/docs
+# Every save is a commit to main, which triggers the deploy action.
+
+backend:
+  name: github
+  repo: dominiku/pauseai-pl
+  branch: main
+
+site_url: https://pauseai.pl
+display_url: https://pauseai.pl
+
+media_folder: static/images
+public_folder: /images
+
+collections:
+  - name: strony
+    label: Strony
+    format: toml-frontmatter
+    editor:
+      preview: false
+    files:
+      - { name: home, label: Strona główna, file: content/_index.md, fields: &page_fields [
+          { name: title, label: Tytuł, widget: string },
+          { name: description, label: Opis (SEO), widget: text, required: false },
+          { name: body, label: Treść, widget: richtext, modes: [raw] }
+        ] }
+      - { name: wiedza, label: Wiedza, file: content/wiedza/index.md, fields: *page_fields }
+      - { name: postulaty, label: Postulaty, file: content/postulaty/index.md, fields: *page_fields }
+      - { name: dzialanie, label: Działaj, file: content/dzialanie/index.md, fields: *page_fields }
+      - { name: dolacz, label: Dołącz do nas, file: content/dolacz/index.md, fields: *page_fields }
+      - { name: opinie, label: Opinie, file: content/opinie/index.md, fields: *page_fields }
+
+  - name: artykuly
+    label: Artykuły (Wiedza)
+    label_singular: Artykuł
+    folder: content/wiedza
+    path: "{{slug}}/index"
+    format: toml-frontmatter
+    create: true
+    editor:
+      preview: false
+    fields: *page_fields
