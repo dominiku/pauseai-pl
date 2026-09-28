@@ -24,6 +24,9 @@ Zbyt mało ludzi jest dobrze poinformowanych o potencjalnych zagrożeniach zwią
 ### [Najnowsze możliwości AI w porównaniu z ludźmi >](mozliwosci-ai/)
 Jak inteligentne są najnowsze modele AI w porównaniu z ludźmi? Przyjrzyjmy się, jak najbardziej zaawansowane systemy AI wypadają na tle człowieka w różnych dziedzinach. Poniższa lista jest regularnie aktualizowana, aby odzwierciedlać najnowsze osiągnięcia.
 
+### [Problem – tekst MIRI o zagrożeniu superinteligencją >](problem/)
+Tłumaczenie „The Problem” zespołu MIRI: dlaczego zbudowanie superinteligentnej AI grozi wyginięciem ludzkości i jaka odpowiedź polityczna może zapobiec katastrofie.
+
 ### [Podejmij działanie >](../dzialanie/)
 Sztuczna inteligencja nie stanie się bezpieczniejsza, jeśli nie podejmiemy w tym celu zdecydowanych kroków. Wybierz aktywność poniżej w zależności od swoich zainteresowań lub umiejętności.
 
