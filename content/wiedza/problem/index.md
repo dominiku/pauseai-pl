@@ -3,7 +3,7 @@ title = "Problem"
 description = "Tłumaczenie tekstu MIRI „The Problem”: dlaczego zbudowanie superinteligentnej AI grozi wyginięciem ludzkości i jaka odpowiedź polityczna może zapobiec katastrofie."
 +++
 
-*Poniższy tekst został opublikowany w lutym 2025 roku przez zespół MIRI (Machine Intelligence Research Institute) jako [The Problem](https://intelligence.org/the-problem/). Jest wprowadzeniem do zagadnienia zagrożenia egzystencjalnego związanego z AI i zarazem wyjaśnieniem, dlaczego dalszy rozwój w kierunku superinteligencji należy zatrzymać. Tłumaczenie powstało w ramach współpracy z organizacją [PauseAI Polska](/).*
+*Poniższy tekst został opublikowany w lutym 2025 roku przez zespół MIRI (Machine Intelligence Research Institute) jako [The Problem](https://intelligence.org/the-problem/). Jest wprowadzeniem do zagadnienia zagrożenia egzystencjalnego związanego z AI i zarazem wyjaśnieniem, dlaczego dalszy rozwój w kierunku superinteligencji należy zatrzymać.*
 
 Deklarowanym celem wiodących światowych firm AI jest zbudowanie sztucznej inteligencji na tyle **uniwersalnej**, aby mogła wykonywać wszystkie czynności, jakie może wykonywać człowiek, od rozwiązywania trudnych problemów fizyki teoretycznej po sprawne poruszanie się w środowisku społecznym. Niedawny postęp w uczeniu maszynowym wydaje się przybliżać ten cel. W tym momencie nie bylibyśmy w stanie wykluczyć możliwości, że w ciągu najbliższego roku lub dwóch powstanie sztuczna inteligencja zdolna do przewyższenia zdolnościami jakiegokolwiek człowieka, i bylibyśmy umiarkowanie zaskoczeni, gdyby ten wynik był oddalony jeszcze o dwie dekady.
 
