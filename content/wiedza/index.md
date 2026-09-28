@@ -5,7 +5,7 @@ description = "Resources to understand the risks of advanced AI and why a pause 
 
 <p class="intro">
 Zrozumienie dlaczego AI może stanowić ryzyko nie jest łatwe. Technologia sztucznej inteligencji jest oparta o skomplikowane koncepcje, a od kilku lat jej rozwój jest wykładniczy.
-<p>
+</p>
 
 ## W naszym serwisie
 
