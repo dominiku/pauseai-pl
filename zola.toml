@@ -20,7 +20,8 @@ nav_items = [
   { name = "Wiedza", url = "/wiedza/" },
   { name = "Postulaty", url = "/postulaty/" },
   { name = "Działaj",   url = "/dzialanie/" },
-  { name = "Dołącz do nas", url = "/dolacz/" }
+  { name = "Dołącz do nas", url = "/dolacz/" },
+  { name = "Opinie", url = "/blog/"}
 ]
 
 
