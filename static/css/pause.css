@@ -658,3 +658,38 @@ a:hover {
     outline: 2px solid var(--brand-bg-color);
     outline-offset: 2px;
 }
+
+/* Small screens: give the quote text room to breathe */
+@media (max-width: 600px) {
+    .slider-track {
+        gap: 1rem;
+        padding: 1.5rem 1rem;
+    }
+
+    .slide {
+        flex: 0 0 88%;
+        min-width: 0;
+    }
+
+    .slide-image-placeholder {
+        height: 240px;
+    }
+
+    .slide-content {
+        padding: 1rem 1.25rem 1.5rem;
+        margin-top: -2.5rem;
+    }
+
+    .slide-quote {
+        font-size: 1.1rem;
+    }
+
+    .slide-author {
+        max-width: 100%;
+        font-size: 0.85rem;
+    }
+
+    .slide-author::first-line {
+        font-size: 0.95rem;
+    }
+}
