@@ -16,7 +16,7 @@
 
                 <ul class="nav-links" id="nav-menu">
                     {% for item in config.extra.nav_items %}
-                    {% set is_active = current_path == item.url or current_path is starting_with(item.url) %}
+                    {% set is_active = current_path == item.url or current_path is starting_with(pat=item.url) %}
                     <li>
                         <a href="{{ item.url }}" class="nav-link {% if is_active %}active{% endif %}">
                             {{ item.name }}
