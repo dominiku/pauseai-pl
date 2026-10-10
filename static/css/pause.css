@@ -201,19 +201,48 @@ border-color: #333;
     margin: 1em 0 1em 0;
 }
 
-blockquote p::before,
-blockquote p::after {
-    content: "“";
-    font-family: Georgia;
-    font-size: 8rem;
-    margin: -2rem 0 0 -4rem;
-    position: absolute;
-    opacity: 0.5;
+/* One pair of decorative marks per quote, anchored to the quote box */
+blockquote {
+    position: relative;
+    margin: 2.5rem 0;
+    padding: 0 3.5rem;
 }
 
-blockquote p::after {
+blockquote::before,
+blockquote::after {
+    position: absolute;
+    font-family: Georgia, serif;
+    font-size: 6rem;
+    line-height: 1;
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+blockquote::before {
+    content: "“";
+    left: 0;
+    top: -0.75rem;
+}
+
+blockquote::after {
     content: "”";
-    margin: -1rem -4rem 0 0;
+    right: 0;
+    bottom: -3.25rem;
+}
+
+@media (max-width: 600px) {
+    blockquote {
+        padding: 0 2rem;
+    }
+
+    blockquote::before,
+    blockquote::after {
+        font-size: 4rem;
+    }
+
+    blockquote::after {
+        bottom: -2rem;
+    }
 }
 
 blockquote cite {

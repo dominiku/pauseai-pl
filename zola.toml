@@ -21,7 +21,7 @@ nav_items = [
   { name = "Postulaty", url = "/postulaty/" },
   { name = "Działaj",   url = "/dzialanie/" },
   { name = "Dołącz do nas", url = "/dolacz/" },
-  { name = "Opinie", url = "/blog/"}
+  { name = "Opinie", url = "/opinie/" }
 ]
 
 

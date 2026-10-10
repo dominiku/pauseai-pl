@@ -28,12 +28,24 @@ collections:
       - { name: postulaty, label: Postulaty, file: content/postulaty/index.md, fields: *page_fields }
       - { name: dzialanie, label: Działaj, file: content/dzialanie/index.md, fields: *page_fields }
       - { name: dolacz, label: Dołącz do nas, file: content/dolacz/index.md, fields: *page_fields }
-      - { name: opinie, label: Opinie, file: content/opinie/index.md, fields: *page_fields }
+      - { name: opinie, label: Opinie (lista tekstów), file: content/opinie/index.md, fields: *page_fields }
+      - { name: sondaze, label: Sondaże i badania, file: content/sondaze-i-badania/index.md, fields: *page_fields }
 
   - name: artykuly
     label: Artykuły (Wiedza)
     label_singular: Artykuł
     folder: content/wiedza
+    path: "{{slug}}/index"
+    format: toml-frontmatter
+    create: true
+    editor:
+      preview: false
+    fields: *page_fields
+
+  - name: teksty_opinie
+    label: Teksty (Opinie)
+    label_singular: Tekst
+    folder: content/opinie
     path: "{{slug}}/index"
     format: toml-frontmatter
     create: true
