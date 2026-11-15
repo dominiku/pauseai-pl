@@ -1,7 +1,9 @@
 +++
-title = "Newsletter Pause AI - Polska: Huang vs Fable (09.11.2026 r. do 15.11.2026 r.)"
+title = "Newsletter Pause AI - Polska: Huang vs Fable"
 description = "Nowy model i narchodzące IPO Antrhopica, obawy o szybszy o termin nadejścia superinteligentnej AI oraz dodatkowe pytania o możliwość globalnego porozumienia w związku z aferą prezesa Nvidii."
 +++
+
+ **(09.11.2026 r. do 15.11.2026 r.)**
 
 Miniony tydzień rozpoczął się od [premiery](https://www.anthropic.com/claude-fable-and-mythos-5-2) dwóch nowych modeli Anthropica -- Fable 5.2 oraz Mythos 5.2. Ten pierwszy jest dostępny dla wszystkich użytkowników (tzn. wszystkich którzy zapłacą), a drugi dla organizacji zajmujących się cyberbezpieczeństwem i badaniami w zakresie biomedycyny po odpowiedniej weryfikacji. Fable 5.2 jest lepszy od Fable 5.1 (modelu z 1 września 2026 r.) w kluczowych testach - m.in. Terminal-Bench-Science (test sprawdzający umiejętność rozwiązywania zaawansowanych zadań obliczeniowych i badawczych w naukach ścisłych), gdzie zaobserwowano wzrost współczynnika poprawnych odpowiedzi z 53% do 75%, oraz Humanity Last Exam (mierzący wysokopoziomowe rozumowanie), gdzie analogiczny wzrost był z 66% do 74%. Wyniki te są kolejnym argumentem (po [raporcie METR](https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/) oraz wewnętrznych Anthropica) na rzecz tezy, że rekurencyjne samodoskonalenie może nadejść już pod koniec przyszłego roku.
 
