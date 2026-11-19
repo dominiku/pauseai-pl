@@ -1,5 +1,5 @@
 +++
-title = "List 54, czyli Lobby AI puka do premiera"
+title = "List 54, czyli lobby AI puka do premiera"
 description = "Branża AI w Europie domaga się większego nacisku na międzynarodową rywalizację AI i inwestycji w moce obliczeniowe. Są znaki, że osoby te mają duże wpływy w Polskim rządzie i skutecznie lobbują za swoimi interesami. Panie Premierze, nie chcemy aby firmy AI ryzykowały losem ludzkości!"
 +++
 
