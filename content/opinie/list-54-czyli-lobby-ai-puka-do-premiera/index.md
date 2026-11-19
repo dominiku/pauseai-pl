@@ -19,7 +19,7 @@ Punkty z [wpisu](https://www.facebook.com/donaldtusk/posts/pfbid0ZKbGZnmMDASsjg4
 
 **List**: Potrzebujemy realnego 28 reżimu, dzięki któremu firma będzie mogła zarejestrować się raz i prowadzić działalność w oparciu o jeden zestaw reguł we wszystkich państwach członkowskich
 
-I uwaga… [okazuje się](https://x.com/trajektoriePL/status/2123128101056233511), że domena [https://the54.eu](https://the54.eu), czyli ta na której został opublikowany list, [jest zarejestrowana](https://x.com/trajektoriePL/status/2123128101056233511/photo/4) na e-mail z identyfikatorem piotr.sankowski!
+I uwaga… [okazuje się](https://x.com/trajektoriePL/status/2123128101056233511), że domena [https://the54.eu](https://the54.eu), czyli ta na której został opublikowany list, jest zarejestrowana na e-mail z identyfikatorem piotr.sankowski!
 
 <img src="email.png" alt="email.png" width="300">
 
