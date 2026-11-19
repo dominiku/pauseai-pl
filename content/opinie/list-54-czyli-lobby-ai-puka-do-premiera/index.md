@@ -21,7 +21,7 @@ Punkty z [wpisu](https://www.facebook.com/donaldtusk/posts/pfbid0ZKbGZnmMDASsjg4
 
 I uwaga… [okazuje się](https://x.com/trajektoriePL/status/2123128101056233511), że domena [https://the54.eu](https://the54.eu), czyli ta na której został opublikowany list, [jest zarejestrowana](https://x.com/trajektoriePL/status/2123128101056233511/photo/4) na e-mail z identyfikatorem piotr.sankowski!
 
-![email.png](email.png)
+<img src="email.png" alt="email.png" width="300">
 
 Piotr Sankowski zasiada w rządowej Radzie Przyszłości i to on [przedstawiał](https://www.linkedin.com/posts/piotr-sankowski_a-call-for-control-of-frontier-ai-models-share-7508070326384144384-nrf2/) bardzo negatywne stanowisko wobec apelu 33 krajów o wypracowanie międzynarodowych standardów i czerwonych linii w rozwoju AI. Zachęca do wyścigu AI mimo, że wie, że jesteśmy blisko rekurencyjnego samodoskonalenia tych systemów. Jednocześnie sam zarabia na AI - tzn. jest dyrektorem ds. bezpieczeństwa w firmie, która ma stronie głównej napisane, że dostarcza rozwiązania oparte o AI.
 
