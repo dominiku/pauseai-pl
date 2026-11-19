@@ -25,7 +25,7 @@ I uwaga… [okazuje się](https://x.com/trajektoriePL/status/2123128101056233511
 
 Piotr Sankowski zasiada w rządowej Radzie Przyszłości i to on [przedstawiał](https://www.linkedin.com/posts/piotr-sankowski_a-call-for-control-of-frontier-ai-models-share-7508070326384144384-nrf2/) bardzo negatywne stanowisko wobec apelu 33 krajów o wypracowanie międzynarodowych standardów i czerwonych linii w rozwoju AI. Zachęca do wyścigu AI mimo, że wie, że jesteśmy blisko rekurencyjnego samodoskonalenia tych systemów. Jednocześnie sam zarabia na AI - tzn. jest dyrektorem ds. bezpieczeństwa w firmie, która ma stronie głównej napisane, że dostarcza rozwiązania oparte o AI.
 
-Co martwić powinno ludzi, którzy protestują przeciwko ekspansji centrów danych, jednym z celów sygnatariuszy są inwestycje w moce obliczeniowe i gigafabryki AI. Dogonienie USA pod względem mocy przeznaczonej na AI oznacza 14-krotny wzrost zużycia energii w tym celu i o wiele więcej centrów danych.
+Ludzi, którzy protestują przeciwko ekspansji centrów danych, powinno martwić to, że jednym z celów sygnatariuszy są inwestycje w moce obliczeniowe i gigafabryki AI. Dogonienie USA pod względem mocy przeznaczonej na AI oznacza 14-krotny wzrost zużycia energii w tym celu i o wiele więcej centrów danych.
 
 Tusk już dziś, czyli już następnego dnia, poinformował, że [odbędzie spotkanie](https://x.com/donaldtusk/status/2123375226872360967) z autorami listu na początku 2027 roku.
 
