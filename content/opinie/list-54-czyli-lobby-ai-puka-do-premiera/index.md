@@ -27,6 +27,6 @@ Piotr Sankowski zasiada w rządowej Radzie Przyszłości i to on [przedstawiał]
 
 Co martwić powinno ludzi, którzy protestują przeciwko ekspansji centrów danych, jednym z celów sygnatariuszy są inwestycje w moce obliczeniowe i gigafabryki AI. Dogonienie USA pod względem mocy przeznaczonej na AI oznacza 14-krotny wzrost zużycia energii w tym celu i o wiele więcej centrów danych.
 
-Tusk już dziś, czyli już następnego dnia, poinformował, że [odbędzie spotkanie](https://x.com/donaldtusk/status/2123375226872360967) z autorami listu na początku stycznia.
+Tusk już dziś, czyli już następnego dnia, poinformował, że [odbędzie spotkanie](https://x.com/donaldtusk/status/2123375226872360967) z autorami listu na początku 2027 roku.
 
 Panie premierze, nie chcemy aby firmy AI ryzykowały naszym losem. Zgodnie z [wynikami](https://www.rp.pl/spoleczenstwo/art45246111-sondaz-wyrazna-wiekszosc-polakow-obawia-sie-sztucznej-inteligencji) SW Research 60% Polaków uważa, ze AI stanowi zagrożenie dla ludzkości. Zamiast słuchać lobbystów, niech Pan słucha Polaków!
