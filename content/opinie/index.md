@@ -8,3 +8,6 @@ Dlaczego przedstawiciele branży AI mówią o ryzyku egzystencjalnym, a mimo to 
 
 ### [Newsletter Pause AI - Polska: Huang vs Fable >](newsletter-pause-ai-polska-huang-vs-fable/)
  (09.11.2026 r. do 15.11.2026 r.) Nowy model i nadchodzące IPO Anthropica, obawy o szybszy o termin nadejścia superinteligentnej AI oraz dodatkowe pytania o możliwość globalnego porozumienia w związku z aferą prezesa Nvidii.
+
+### [List 54, czyli Lobby AI puka do premiera->](list-54-czyli-lobby-ai-puka-do-premiera/)
+37 przedstawicieli europejskich firm technologicznych domaga się większego nacisku na międzynarodową rywalizacje w dziedzinie AI i zwielokrotnienia inwestycji w moce obliczeniowe. Są znaki, że osoby te mają duże wpływy w i skutecznie lobbują za swoimi interesami.
