@@ -3,6 +3,7 @@ title = "List 54, czyli lobby AI puka do premiera"
 description = "Branża AI w Europie domaga się większego nacisku na międzynarodową rywalizację AI i inwestycji w moce obliczeniowe. Są znaki, że osoby te mają duże wpływy w Polskim rządzie i skutecznie lobbują za swoimi interesami. Panie Premierze, nie chcemy aby firmy AI ryzykowały losem ludzkości!"
 +++
 
+_Tekst z 19 listopada 2026 roku_
 Wczoraj autor bloga Trajektorie, Michał Podlewski, [napisał](https://x.com/trajektoriePL/status/2123128101056233511), że za “drastyczny zwrot premiera Tuska w sprawie AI” odpowiada Piotr Sankowski, dyrektor i współzałożyciel firmy MIM SOLUTIONS. Skąd ta teza? Otóż został opublikowany [list otwarty](https://the54.eu) 37 przedstawicieli europejskich firm technologicznych i 22 naukowców do rządów krajów UE o inwestycje mające na celu wygranie w wyścigu AI z USA i Chinami. Wśród polskich sygnatariuszy są Rafał Brzoska, Piotr Sankowski i Mati Staniszewski (prezes ElevenLabs). List nazwany jest w skrócie listem 54.
 
 Punkty z [wpisu](https://www.facebook.com/donaldtusk/posts/pfbid0ZKbGZnmMDASsjg4HJoUbhPy3JtC2M7tu34dsYGjE4mf6jPRSJY2DikDn9QDn1FBGl?locale=pl_PL) premiera Tuska z 13 listopada, który to wpis miał miejsce przed publikacją listu, w zaskakujaco bliski sposób pokrywają się z niektórymi jego tezami:
