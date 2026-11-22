@@ -3,6 +3,8 @@ title = "Newsletter Pause AI - Polska: IPO, IPO, i po IPO"
 description = "Podczas gdy Anthropic zyskuje niewyobrażalne sumy pieniędzy i rozwiązuje największe problemy matematyczne w historii ludzkości, presja biznesowa spotyka się z coraz większym społecznym oporem. Czy będzie go wystarczająco dużo?"
 +++
 
+**(16.11.2026 r. do 22.11.2026 r.) Podczas gdy Anthropic zyskuje niewyobrażalne sumy pieniędzy i rozwiązuje największe problemy matematyczne w historii ludzkości, presja biznesowa spotyka się z coraz większym społecznym oporem. Czy będzie go wystarczająco dużo?**
+
 Jeszcze niedawno wydawało się, że do przeprowadzenia dowodów matematycznych potrzeba niedostępnej dla algorytmów ludzkiej kreatywności. Pod koniec 2024 roku eksperci średnio [szacowali](https://aiimpacts.org/wp-content/uploads/2026/09/ESPAI2024.pdf), że AI będzie w stanie przeprowadzać dowody matematyczne dopiero w 2050 roku. W tym tygodniu, z pomocą Claude'a, prawdopodobnie rozwiązano kolejny matematyczny problem milenijny w tym roku - hipotezę Riemanna. Zrobił to Levent Alpöge, matematyk i pracownik firmy Anthropic. Hipoteza stanowiła jedną z największych zagadek matematycznych w historii, nad którą głowiono się ponad 160 lat. Polski matematyk, Mateusz Brylski, [podzielił](https://www.youtube.com/watch?v=_gPDWKCzFv8) się w internecie swoją reakcją na wiadomość o odkryciu: 
 
 > Nie mogłem spać po Navieru Stokesie, a to jest naprawdę spore. (...) Cała nasza cywilizacja ulegnie drastycznej zmianie w ciągu następnych dwóch lat
