@@ -13,4 +13,4 @@ Dlaczego przedstawiciele branży AI mówią o ryzyku egzystencjalnym, a mimo to 
 37 przedstawicieli europejskich firm technologicznych domaga się większego nacisku na międzynarodową rywalizacje w dziedzinie AI i zwielokrotnienia inwestycji w moce obliczeniowe. Są znaki, że osoby te mają duże wpływy w i skutecznie lobbują za swoimi interesami.
 
 ### [Newsletter Pause AI - Polska: IPO, IPO i po IPO->](newsletter-pause-ai-polska-ipo-ipo-i-po-ipo/)
-Podczas gdy Anthropic zyskuje niewyobrażalne sumy pieniędzy i rozwiązuje największe problemy matematyczne w historii ludzkości, presja biznesowa spotyka się z coraz większym społecznym oporem. Czy będzie go wystarczająco dużo?
+(od 15.11.2026 r. do 22.11.2026 r.) Podczas gdy Anthropic zyskuje niewyobrażalne sumy pieniędzy i rozwiązuje największe problemy matematyczne w historii ludzkości, presja biznesowa spotyka się z coraz większym społecznym oporem. Czy będzie go wystarczająco dużo?
