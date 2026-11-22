@@ -11,3 +11,6 @@ Dlaczego przedstawiciele branży AI mówią o ryzyku egzystencjalnym, a mimo to 
 
 ### [List 54, czyli Lobby AI puka do premiera->](list-54-czyli-lobby-ai-puka-do-premiera/)
 37 przedstawicieli europejskich firm technologicznych domaga się większego nacisku na międzynarodową rywalizacje w dziedzinie AI i zwielokrotnienia inwestycji w moce obliczeniowe. Są znaki, że osoby te mają duże wpływy w i skutecznie lobbują za swoimi interesami.
+
+### [Newsletter Pause AI - Polska: IPO, IPO i po IPO->](newsletter-pause-ai-polska-ipo-ipo-ipo-ipo/)
+Podczas gdy Anthropic zyskuje niewyobrażalne sumy pieniędzy i rozwiązuje największe problemy matematyczne w historii ludzkości, presja biznesowa spotyka się z coraz większym społecznym oporem. Czy będzie go wystarczająco dużo?
